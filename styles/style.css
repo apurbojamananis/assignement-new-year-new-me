@@ -17,6 +17,7 @@
   border-radius: 10px;
   border: none;
   padding: 20px 35px;
+  cursor: pointer;
 }
 
 /* ============================ */
@@ -54,6 +55,13 @@ header {
   text-align: right;
 }
 
+.banner-btn:hover {
+  background-color: #3fbde8;
+  outline: 1px solid #fff;
+  color: #fff;
+  transition: 0.8s;
+}
+
 /* ============================ */
 /* FAILURE SECTION STYLES */
 /* ============================ */
@@ -63,7 +71,6 @@ header {
   flex-direction: row;
   max-width: 1340px;
   margin: 0 auto;
-  /* background-color: bisque; */
 }
 
 .failure-image {
@@ -102,20 +109,21 @@ header {
 
 .failure-reason li {
   list-style: none;
-  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   padding-bottom: 8px;
   color: #444343;
-  margin-left: 30px;
 }
-
+.failure-icon {
+  color: #16d887;
+  margin-right: 10px;
+  font-size: 18px;
+}
 /* ============================ */
 /* PLAN SECTION STYLES */
 /* ============================ */
 
 .plan-section-description {
-  /* background-color: #737272; */
   max-width: 1140px;
   margin: auto;
 }
@@ -186,6 +194,12 @@ header {
   margin-top: 25px;
 }
 
+.CTA-btn:hover {
+  background-color: #3fbde8;
+  outline: 1px solid #fff;
+  color: #fff;
+  transition: 0.8s;
+}
 /* ============================ */
 /* CTA SECTION STYLES */
 /* ============================ */
@@ -197,7 +211,6 @@ footer {
 .footer-section {
   width: 1140px;
   margin: auto;
-  /* background-color: #444343; */
   display: flex;
 }
 
@@ -209,8 +222,6 @@ footer {
 
 .footer-description {
   width: 70%;
-  /* margin-right: 100px; */
-  /* background-color: gold; */
 }
 
 .footer-description h3 {
@@ -240,15 +251,7 @@ footer {
 
 .subscribe {
   width: 30%;
-  /* margin-left: 100px; */
-  /* background-color: forestgreen; */
 }
-
-/* .subscribe-description {
-  display: block;
-  flex-direction: column;
-  justify-content: flex-start;
-} */
 
 .subscribe h4 {
   font-weight: 600;
@@ -278,7 +281,14 @@ footer {
 }
 
 .subscribe-btn {
-  background-color: #005fac;
+  background-color: #3fbde8;
   color: #fff;
   margin-top: 20px;
+}
+
+.subscribe-btn:hover {
+  background-color: #fff;
+  outline: 1px solid #005fac;
+  color: #005fac;
+  transition: 0.8s;
 }
