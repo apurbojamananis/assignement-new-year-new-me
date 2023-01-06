@@ -63,6 +63,7 @@ header {
   flex-direction: row;
   max-width: 1340px;
   margin: 0 auto;
+  /* background-color: bisque; */
 }
 
 .failure-image {
@@ -84,7 +85,7 @@ header {
 }
 
 .failure-content-description h2 {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 57px;
   font-weight: 700;
   color: #151414;
@@ -110,5 +111,174 @@ header {
 }
 
 /* ============================ */
-/* FAILURE SECTION STYLES */
+/* PLAN SECTION STYLES */
 /* ============================ */
+
+.plan-section-description {
+  /* background-color: #737272; */
+  max-width: 1140px;
+  margin: auto;
+}
+
+.plan-heading h2 {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 40px;
+  line-height: 57px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 50px;
+}
+
+.plan-contents {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.plan-item h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+  margin-top: 30px;
+}
+
+.plan-item p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+  margin-top: 15px;
+  margin-bottom: 130px;
+}
+
+/* ============================ */
+/* CTA SECTION STYLES */
+/* ============================ */
+
+.CTA-section {
+  width: 1140px;
+  height: 300px;
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("../images/watch.png");
+  margin: auto;
+
+  border-radius: 10px;
+}
+
+.CTA-content {
+  width: 450px;
+  margin-left: 60px;
+  padding-top: 60px;
+}
+
+.CTA-content h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+}
+
+.CTA-btn {
+  margin-top: 25px;
+}
+
+/* ============================ */
+/* CTA SECTION STYLES */
+/* ============================ */
+
+footer {
+  margin-top: 125px;
+  background-color: #151414;
+}
+.footer-section {
+  width: 1140px;
+  margin: auto;
+  /* background-color: #444343; */
+  display: flex;
+}
+
+.footer-description,
+.subscribe {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.footer-description {
+  width: 70%;
+  /* margin-right: 100px; */
+  /* background-color: gold; */
+}
+
+.footer-description h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+
+.footer-description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 15px;
+  width: 70%;
+}
+
+.social-link img {
+  margin-top: 30px;
+}
+
+.twitter,
+.youtube {
+  margin-left: 15px;
+}
+
+.subscribe {
+  width: 30%;
+  /* margin-left: 100px; */
+  /* background-color: forestgreen; */
+}
+
+/* .subscribe-description {
+  display: block;
+  flex-direction: column;
+  justify-content: flex-start;
+} */
+
+.subscribe h4 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.subscribe input {
+  width: 300px;
+  padding: 20px;
+  outline: 1px solid #fff;
+  background-color: #151414;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+}
+
+.subscribe input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+}
+
+.subscribe-btn {
+  background-color: #005fac;
+  color: #fff;
+  margin-top: 20px;
+}
