@@ -55,12 +55,6 @@ header {
   text-align: right;
 }
 
-.banner-btn:hover {
-  background-color: #3fbde8;
-  outline: 1px solid #fff;
-  color: #fff;
-  transition: 0.8s;
-}
 
 /* ============================ */
 /* FAILURE SECTION STYLES */
@@ -193,12 +187,6 @@ header {
   margin-top: 25px;
 }
 
-.CTA-btn:hover {
-  background-color: #3fbde8;
-  outline: 1px solid #fff;
-  color: #fff;
-  transition: 0.8s;
-}
 
 /* ============================ */
 /* FOOTER SECTION STYLES */
@@ -285,9 +273,4 @@ footer {
   margin-top: 20px;
 }
 
-.subscribe-btn:hover {
-  background-color: #fff;
-  outline: 1px solid #005fac;
-  color: #005fac;
-  transition: 0.8s;
-}
+
